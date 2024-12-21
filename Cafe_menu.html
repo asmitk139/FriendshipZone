@@ -1,83 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Semantics</title>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-1.12.0.js"
-    ></script>
+    <title>Cafe Menu</title>
+    <link href="cafe_menu_styles.css" rel="stylesheet"/>
   </head>
   <body>
-    <header>
-      <hgroup>
-        <h1>Learning Web Development</h1>
-        <h2>
-          A site dedicated to learning how to develop applications for the web.
-        </h2>
-      </hgroup>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About This Site</a></li>
-          <li><a href="">Contact Information</a></li>
-        </ul>
-      </nav>
-    </header>
-    <article>
-      <hgroup>
-        <h1>Using Semantic HTML Elements</h1>
-        <h2>
-          A complete guide on indicating meaning for your web page's content
-        </h2>
-        <h3><time datetime="2024-12-18">December 18, 2024</time></h3>
-      </hgroup>
-
-      <section>
-        <h4><code>header</code></h4>
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
         <p>
-          Use header elements for content that is consistent across your web
-          page.
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
         </p>
-        <p>Headers may also contain your site's navigation components.</p>
-      </section>
-
-      <section>
-        <h4><code>footer</code></h4>
-        <p>
-          Use footer elements to store "footer" content, like author/copyright
-          info.
-        </p>
-      </section>
-
-      <section>
-        <h4><code>nav</code></h4>
-        <p>
-          Use nav elements to store elements associated with site navigation.
-        </p>
-        <p>
-          Navigational <code>anchor</code> tags are often wrapped in an
-          unordered list element.
-        </p>
-      </section>
-    </article>
-    <footer>
-      <p>&copy; innoskrit.in 2024</p>
-    </footer>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
+    </div>
   </body>
 </html>
-
-          
-    
-    
-    
-    
-    
-   
-    
-
-
-
-
